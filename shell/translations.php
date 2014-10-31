@@ -49,7 +49,7 @@ class Mage_Shell_Translations extends Mage_Shell_Abstract
             $rows = explode("\n", file_get_contents($languageFile));
             foreach($rows as $row) {
                 if(empty($row) || substr($row,0,1) == '#') continue;
-                $parts = explode("\",\"", $row);
+                $parts = explode("\",\"", $row); // Hackish, this could be done better. Maybe using Magento's own models to interpret the locale CSV files?
                 foreach($parts as &$part) {
                     $part = trim($part,'"');
                 }

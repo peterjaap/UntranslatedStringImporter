@@ -1,6 +1,6 @@
 # Untranslated String Importer
 
-The [EW_UntranslatedStrings extension](https://github.com/ericthehacker/magento-untranslatedstrings) does a great job of easily finding strings that are not translated. It helps cut down translation time tremendously. After collection untranslated strings for a few days, we exported the strings to a CSV from the backend and sent it to our client for translation. We then wrote this little importer to take care of appending the translated strings to the locale's language CSV files.
+The [EW_UntranslatedStrings extension](https://github.com/ericthehacker/magento-untranslatedstrings) does a great job of easily finding strings that are not translated. It helps cut down translation time tremendously. After collecting untranslated strings for a few days, we exported the strings to a CSV from the backend and sent it to our client for translation. We then wrote this little importer to take care of appending the translated strings to the locale's language CSV files.
 
 Steps;
 

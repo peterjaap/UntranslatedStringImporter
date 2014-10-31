@@ -73,7 +73,7 @@ class Mage_Shell_Translations extends Mage_Shell_Abstract
     public function usageHelp()
     {
         return <<<USAGE
-Usage:  php -f indexer.php -- [options]
+Usage:  php -f translations.php -- [options]
 
   --run <filename.csv>          Run translation updater using <filename.csv> (which should be placed in var/translations)
 
